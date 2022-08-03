@@ -29,11 +29,14 @@ ul
 
 标签属性括号内 div(class=['aa'])
 
-字母前#， #id  是id标识
+## 变量
+- 字母前#和大括号， #id  是id标识 
 比如  p #{obj.name} 变量下
 
-前置 - ，比如 - var bool = true
+- 前置 - ，比如 - var bool = true
 直接变量
+
+- #[] 这样是嵌入pug的代码
 
 样式p(style="color="black";")
 或者p(style={color="black",})
