@@ -8,10 +8,22 @@
 
 + if () else 无大括号
 
-+ for  // todo
++ for  
+```
+- var arr = [1,2,3,4,5] 
+ul 
+ - for(var i=0;i<arr.length;i++) 
+ li= arr[i] 
+```
+
 
 + each val in [1,2,3,4]
-
+```
+- var arr = {name:'binge',six:'man'} 
+ul 
+ each val in arr 
+ li= val 
+```
 
 标签直接字母 div 
 
@@ -25,3 +37,10 @@
 
 样式p(style="color="black";")
 或者p(style={color="black",})
+
+(extends, block content) 说是继承，相当上下文拼接
+
+mixin 相当于标识函数体
+mixin todo(param)
+  // anything
++ todo("ai~") // 调用
