@@ -1,6 +1,6 @@
 # PUG
 
-![Playground](https://pug.vercel.app/)
+[Playground](https://pug.vercel.app/)
 
 原名jade （whatever）
 
