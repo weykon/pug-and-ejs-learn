@@ -1,4 +1,6 @@
 # PUG
+![Playground](https://pug.vercel.app/)
+
 原名jade （whatever） 
 
 缩进敏感
@@ -47,3 +49,11 @@ mixin 相当于标识函数体
 mixin todo(param)
   // anything
 + todo("ai~") // 调用
+
+
+## ! 和 # ？ 
+|         |      |          | 
+| ----------|--- | -----:|
+| let a = 1  |   | ```<p>1</p>``` |
+| p #{a}      | **=>** | ```<p>1</p>``` |
+| p !{a}       | |                |
